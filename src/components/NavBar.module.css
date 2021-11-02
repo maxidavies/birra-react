@@ -1,0 +1,44 @@
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.navBar {
+  background: transparent;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  background: rgb(255, 186, 38);
+}
+
+.icon {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  color: #fff;
+}
+
+p {
+  transform: translate(-175%, 100%);
+  font-weight: bold;
+}
+
+.beer {
+  font-size: 2rem;
+  transform: translate(-50%, -15%);
+}
+
+@media (max-width: 400px) {
+  /* .link {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+  } */
+}
